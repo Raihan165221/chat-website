@@ -1,0 +1,53 @@
+.chat-container {
+    background-color: lightgray;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+}
+
+.my-text {
+    height: 100%;
+    border-right: 5px solid rgb(129, 35, 252);
+}
+
+.my-text input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.my-btn {
+    position: absolute;
+    bottom: 0;
+    right: 57.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.another-text {
+    height: 100%;
+    border-right: 5px solid rgb(129, 35, 252);
+
+}
+
+.another-text input {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    margin-right: 30px;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.another-btn {
+    position: absolute;
+    bottom: 0;
+    left: 94.5%;
+    font-size: 20px;
+    cursor: pointer;
+}
